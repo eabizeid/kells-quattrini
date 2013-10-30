@@ -524,3 +524,59 @@ function twentythirteen_customize_preview_js() {
 	wp_enqueue_script( 'twentythirteen-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130226', true );
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
+
+add_action( 'init', 'create_post_type' );
+function create_post_type() {
+	register_post_type( 'documental',
+		array(
+			'labels' => array(
+				'name' => __( 'Documentales' ),
+				'singular_name' => __( 'Documental' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+	register_post_type( 'ficcion',
+		array(
+			'labels' => array(
+				'name' => __( 'Ficciones' ),
+				'singular_name' => __( 'Ficcion' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+	register_post_type( 'comercial',
+		array(
+			'labels' => array(
+				'name' => __( 'Comerciales' ),
+				'singular_name' => __( 'Comercial' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+	register_post_type( 'video_musical',
+		array(
+			'labels' => array(
+				'name' => __( 'Videos Musicales' ),
+				'singular_name' => __( 'Video Musical' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+	
+	register_post_type( 'nota_prensa',
+		array(
+			'labels' => array(
+				'name' => __( 'Notas Prensa' ),
+				'singular_name' => __( 'Nota Prensa' )
+			),
+		'public' => true,
+		'has_archive' => true,
+		)
+	);
+}
+
