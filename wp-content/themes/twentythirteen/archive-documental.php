@@ -39,10 +39,11 @@ get_header(); ?>
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<?php echo 'aca va el contenido que queremos' ?>
+				<?php get_template_part( 'content', get_post_format() ); ?>
 			<?php endwhile; ?>
-
-			<?php twentythirteen_paging_nav(); ?>
+            <?php if(!isset($_REQUEST['show_all'])) : ?>
+			<a href="?show_all=1"><?php echo __('Show All')?></a>
+			<?php endif;?>
 
 		<?php else : ?>
 			<?php get_template_part( 'content', 'none' ); ?>

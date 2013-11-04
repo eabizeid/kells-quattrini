@@ -525,6 +525,10 @@ function twentythirteen_customize_preview_js() {
 }
 add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
 
+
+/**
+ * Agregamos los tipos personalizados para el website
+ */
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
 	register_post_type( 'documental',
@@ -580,3 +584,49 @@ function create_post_type() {
 	);
 }
 
+function get_posts_for_index_page($post_type,$posts_per_page=12){
+	 $args = array(
+   'post_type' => $post_type,
+   'meta_key' => 'mostrar_en_carrusel',
+   'orderby' => 'post_date',
+   'order' => 'ASC',
+    'posts_per_page'=> $posts_per_page,
+   'meta_query' => array(
+       array(
+           'key' => 'mostrar_en_carrusel',
+           'value' => true,
+           'compare' => '=',
+       )
+   )
+   
+ );
+	return new WP_Query($args);
+}
+   
+/**
+ * Sobreescribimos la query the busqueda solo para los archive
+ */
+add_action( 'pre_get_posts', 'custom_get_posts',1);
+function custom_get_posts($query){
+	if(!$query->is_archive()){
+		return ;
+	}
+	$query->set('meta_key','mostrar_en_carrusel');
+	$query->set('orderby','post_date');
+	$query->set('order','ASC');
+	if(isset($_REQUEST['show_all'])){
+		$query->set('nopaging',true);
+	}else{
+		$query->set('posts_per_page',12);
+		$query->set('meta_query',array(
+	       array(
+	           'key' => 'mostrar_en_carrusel',
+	           'value' => true,
+	           'compare' => '=',
+	       )
+	   ));
+	}
+}
+
+
+	
