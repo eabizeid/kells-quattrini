@@ -1,3 +1,4 @@
+@import url("fonts.css");
 /* generales */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;outline:0;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
 body {background:#fff url(../images/fondo.gif) center repeat-y;margin:0;padding:0;}
@@ -16,7 +17,7 @@ input[type="checkbox"], input[type="radio"] {margin:0;padding:0;height:14px;widt
 a {color:#333;text-decoration:none;}
 a:hover {color:#000;text-decoration:none;}
 
-/* títulos */
+/* tï¿½tulos */
 h1 {margin-bottom:1px;font-size:12px;font-weight:bold;color:#1198b4;}
 
 /* estructura */
@@ -84,7 +85,7 @@ h1 {margin-bottom:1px;font-size:12px;font-weight:bold;color:#1198b4;}
 .encabezado-idioma {float:left;width:860px;text-align:right;padding:20px 50px;font-family:'Abel',sans-serif;font-size:14px;line-height:16px;color:#999}
 .encabezado-idioma a {color:#717171;}
 .encabezado-idioma a:hover {color:#000;}
-.encabezado-logo {float:left;width:960px;text-align:center;padding:20px 0 60px;}
+.encabezado-logo {margin:auto; display:block; width:439px; height:79px; text-align:center;padding:20px 0 60px;background: url(images/logo-gianfranco-quattrini.gif) no-repeat;}
 
 /* menu */
 .menu {float:left;width:100%;display:table;padding-bottom:10px;}
@@ -100,7 +101,8 @@ h1 {margin-bottom:1px;font-size:12px;font-weight:bold;color:#1198b4;}
 .pie-datos {float:left;width:890px;padding-left:10px;color:#999;}
 .pie-datos a {color:#717171;}
 .pie-datos a:hover {color:#000;}
-.pie-kells {float:left;width:50px;text-align:right;}
+.pie-kells {float:left;width:50px; height:20px; text-align:right;background: url(images/kells.gif) center repeat-y;margin:0;padding:0;}
+
 
 /* clases */
 .columna {float:left;}

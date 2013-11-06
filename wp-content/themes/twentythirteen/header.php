@@ -33,19 +33,25 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</a>
-
-			<div id="navbar" class="navbar">
-				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-					<?php get_search_form(); ?>
-				</nav><!-- #site-navigation -->
-			</div><!-- #navbar -->
+			<div class="encabezado">
+			<div class="encabezado-interno">
+		    	<div class="encabezado-idioma"><a href="#">English</a></div>
+		        <a href="/" class="encabezado-logo"></a>
+		    </div>
+		</div>
+		<div class="menu">
+		    <div class="menu-interno">
+		        <ul>
+		            <li><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php echo __('Ficci&oacute;n','kells')?></a></li>
+		            <li><a href="<?php echo get_post_type_archive_link('comercial'); ?>"><?php echo __('Comerciales','kells')?></a></li>
+		            <li><a href="<?php echo get_post_type_archive_link('video_musical'); ?>"><?php echo __('Videos Musicales','kells')?></a></li>
+		            <li><a href="<?php echo get_post_type_archive_link('documental'); ?>"><?php echo __('Documentales','kells')?></a></li>
+		            <li><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php echo __('Qui&eacute;n Soy','kells')?></a></li>
+		            <li><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php echo __('Prensa','kells')?></a></li>
+		            <li><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php echo __('Contacto','kells')?></a></li>
+		        </ul>
+		    </div>
+		</div>
 		</header><!-- #masthead -->
 
 		<div id="main" class="site-main">

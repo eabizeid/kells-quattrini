@@ -611,13 +611,16 @@ function custom_get_posts($query){
 	if(!$query->is_archive()){
 		return ;
 	}
+	
 	$query->set('meta_key','mostrar_en_carrusel');
 	$query->set('orderby','post_date');
 	$query->set('order','ASC');
 	if(isset($_REQUEST['show_all'])){
 		$query->set('nopaging',true);
 	}else{
-		$query->set('posts_per_page',12);
+		$post_type = $query->get('post_type');
+		$page_size = $post_type == 'documental' || $post_type == 'ficcion' ? 3 : 12;
+		$query->set('posts_per_page',$page_size);
 		$query->set('meta_query',array(
 	       array(
 	           'key' => 'mostrar_en_carrusel',
