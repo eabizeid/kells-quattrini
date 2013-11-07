@@ -9,13 +9,14 @@
  * @subpackage Twenty_Thirteen
  * @since Twenty Thirteen 1.0
  */
+global $opcionesPod;
 ?>
 
 		</div><!-- #main -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<div class="pie">
 				<div class="pie-interno">
-			        <div class="pie-datos"><strong>Gianfranco Quattrini</strong> &nbsp;/&nbsp; Contacto: <a href="mailto:gq@gianfrancoquattrini.net">gq@gianfrancoquattrini.net</a></div>
+			        <div class="pie-datos"><strong><?php echo $opcionesPod->field("descripcion_pie_de_pagina") ?></strong> &nbsp;/&nbsp; Contacto: <a href="mailto:<?php echo $opcionesPod->field("mail_de_contacto") ?>"><?php echo $opcionesPod->field("mail_de_contacto") ?></a></div>
 			        <a href="http://www.kells.com.ar" target="_blank" class="pie-kells"></a>
 			    </div>
 			</div>
