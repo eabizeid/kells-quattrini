@@ -21,33 +21,8 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-
-		<?php if ( have_posts() ) : ?>
-			<header class="titulo">
-				<h1 class="titulo-interno"><?php
-						_e( 'Documentales', 'kells' );
-					
-				?></h1>
-			</header><!-- .archive-header -->
-			<div class="contenido">
-			<div class="contenido-interno">
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-					<div class="entry-thumbnail">
-						<?php the_post_thumbnail(); ?>
-					</div>
-				<?php endif; ?>
-			<?php endwhile; ?>
-            <?php if(!isset($_REQUEST['show_all'])) : ?>
-			<a href="?show_all=1"><?php echo __('Show All')?></a>
-			<?php endif;?>
-
-		<?php else : ?>
-			<?php get_template_part( 'content', 'none' ); ?>
-		<?php endif; ?>
-			</div>
-			</div>
+			<?php getTemplatePart('documental-ficcion-lista-template','none',array('title'=>'Documentales')) ?>
+		</div>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

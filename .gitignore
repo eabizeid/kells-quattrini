@@ -1,3 +1,4 @@
 wp-config.*
 .project
 /settings
+wp-content/uploads*

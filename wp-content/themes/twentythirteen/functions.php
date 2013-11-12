@@ -32,6 +32,7 @@ $opcionesPod = pods( 'quanttrini_opciones' );
 if ( ! isset( $content_width ) )
 	$content_width = 604;
 
+
 /**
  * Adds support for a custom header image.
  */
@@ -540,6 +541,7 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => true,
+	    'supports' => array( 'title', 'editor', 'comments', 'excerpt',  'thumbnail' )
 		)
 	);
 	register_post_type( 'ficcion',
@@ -550,6 +552,7 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => true,
+	    'supports' => array( 'title', 'editor', 'comments','excerpt',  'thumbnail' )
 		)
 	);
 	register_post_type( 'comercial',
@@ -560,6 +563,7 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => true,
+	    'supports' => array( 'title', 'editor', 'comments', 'excerpt', 'thumbnail' )
 		)
 	);
 	register_post_type( 'video_musical',
@@ -570,6 +574,7 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => true,
+	    'supports' => array( 'title', 'editor', 'comments', 'excerpt', 'thumbnail' )
 		)
 	);
 	
@@ -581,9 +586,12 @@ function create_post_type() {
 			),
 		'public' => true,
 		'has_archive' => true,
+	    'supports' => array( 'title', 'editor', 'comments',  'excerpt', 'thumbnail' )
 		)
 	);
+	
 }
+
 
 function get_posts_for_index_page($post_type,$posts_per_page=12){
 	 $args = array(
@@ -609,7 +617,7 @@ function get_posts_for_index_page($post_type,$posts_per_page=12){
  */
 add_action( 'pre_get_posts', 'custom_get_posts',1);
 function custom_get_posts($query){
-	if(!$query->is_archive()){
+	if(!$query->is_archive() || ($query->is_archive() && is_admin())){
 		return ;
 	}
 	
@@ -620,8 +628,8 @@ function custom_get_posts($query){
 		$query->set('nopaging',true);
 	}else{
 		$post_type = $query->get('post_type');
-		$page_size = $post_type == 'documental' || $post_type == 'ficcion' ? 3 : 12;
-		$query->set('posts_per_page',$page_size);
+		if($post_type != 'documental' && $post_type != 'ficcion')
+		  $query->set('posts_per_page',12);
 		$query->set('meta_query',array(
 	       array(
 	           'key' => 'mostrar_en_carrusel',
@@ -631,6 +639,38 @@ function custom_get_posts($query){
 	   ));
 	}
 }
+
+function getTemplatePart($slug = null, $name = null, array $params = array()) {
+	global $posts, $post, $wp_did_header, $wp_query, $wp_rewrite, $wpdb, $wp_version, $wp, $id, $comment, $user_ID;
+
+	do_action("get_template_part_{$slug}", $slug, $name);
+	$templates = array();
+	if (isset($name))
+	$templates[] = "{$slug}-{$name}.php";
+
+	$templates[] = "{$slug}.php";
+
+	$_template_file = locate_template($templates, false, false);
+
+	if (is_array($wp_query->query_vars)) {
+		extract($wp_query->query_vars, EXTR_SKIP);
+	}
+	extract($params, EXTR_SKIP);
+
+	require($_template_file);
+}
+
+function wp_setup_theme_hook() {
+	if(function_exists('add_theme_support')) {
+		add_theme_support( 'post-thumbnails' );
+		add_image_size( 'documetal_ficcion_thumb', 290, 414, false);
+		add_image_size( 'comercial_video_thumb', 300, 169, false);
+	}
+	
+	define('COMERCIALES_VIDEOS_PAGE_SIZE',12);
+	load_theme_textdomain( 'kells', get_template_directory() . '/languages' );
+}
+add_action('after_setup_theme', 'wp_setup_theme_hook');
 
 
 	

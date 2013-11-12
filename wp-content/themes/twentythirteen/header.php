@@ -35,7 +35,9 @@
 		<header id="masthead" class="site-header" role="banner">
 			<div class="encabezado">
 			<div class="encabezado-interno">
-		    	<div class="encabezado-idioma"><a href="#">English</a></div>
+				<div class="encabezado-idioma">
+					<?php the_widget('qTranslateWidget', array('hide-title'=>true, 'type'=>'text')); ?>
+				</div>
 		        <a href="/" class="encabezado-logo"></a>
 		    </div>
 		</div>

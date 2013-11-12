@@ -43,8 +43,8 @@ h1 {margin-bottom:1px;font-size:12px;font-weight:bold;color:#1198b4;}
 .titulo.prensa .titulo-interno a:hover {color:#000;}
 .trabajos ul {float:left;width:960px;}
 .trabajos li {float:left;width:300px;margin:30px 30px 0 0;}
-.trabajos li.ultimo {margin-right:0;}
-.trabajos-imagen {border-bottom:4px solid #161616;}
+.trabajos li:nth-child(3n) {margin-right:0;}
+/* .trabajos-imagen {border-bottom:4px solid #161616;}*/
 .trabajos-texto {font-family:'Abel',sans-serif;font-size:15px;line-height:24px;color:#4d4d4d;text-align:center;text-transform:uppercase;}
 .trabajos-texto strong {font-family: 'Montserrat', sans-serif;font-size:18px;color:#333;}
 .trabajos-texto a {display:block;padding-top:15px;}
@@ -85,6 +85,7 @@ h1 {margin-bottom:1px;font-size:12px;font-weight:bold;color:#1198b4;}
 .encabezado-idioma {float:left;width:860px;text-align:right;padding:20px 50px;font-family:'Abel',sans-serif;font-size:14px;line-height:16px;color:#999}
 .encabezado-idioma a {color:#717171;}
 .encabezado-idioma a:hover {color:#000;}
+.encabezado-idioma li.active {display: none;}
 .encabezado-logo {margin:auto; display:block; width:439px; height:79px; text-align:center;padding:20px 0 60px;background: url(images/logo-gianfranco-quattrini.gif) no-repeat;}
 
 /* menu */
