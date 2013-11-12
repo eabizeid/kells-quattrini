@@ -1,10 +1,6 @@
 <?php
 /**
- * The Template for displaying all single posts.
- *
- * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * The Template for displaying all single comercials.
  */
 
 get_header(); ?>
@@ -15,10 +11,19 @@ get_header(); ?>
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'content', get_post_format() ); ?>
-				<?php twentythirteen_post_nav(); ?>
-				<?php comments_template(); ?>
-
+				<div class="titulo">
+					<div class="titulo-interno"><a href="/ficcion">Ficción</a></div>
+				</div>
+				<div class="trabajo">
+					<div class="trabajo-interno">
+      					<div class="trabajo-titulo"><?php the_title(); ?></div>
+        				<div class="trabajo-bajada"><?php the_excerpt(); ?></div>
+        				<div class="trabajo-texto">
+							<?php the_content(); ?>
+						</div>
+      					<div class="volver"><a href="/ficcion">Volver</a></div>
+      				</div>
+      			</div>
 			<?php endwhile; ?>
 
 		</div><!-- #content -->
