@@ -21,10 +21,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-			<?php 
-			$posts_count = wp_count_posts('comercial');
-			getTemplatePart('comercial-video-list','none',array('title'=>'Comerciales','posts_count' => $posts_count)) ?>
-		</div>
+			<?php get_template_part('comercial-video-list','none'); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

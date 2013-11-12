@@ -10,13 +10,15 @@
 <script type="text/javascript">
 
 </script>
-<?php if ( have_posts() ) : ?>
 	<header class="titulo">
-		<h1 class="titulo-interno"><?php
-				_e( $title, 'kells' );
-			
-		?></h1>
-	</header><!-- .archive-header -->
+		<h1 class="titulo-interno">
+		<?php
+		   $labels =  get_post_type_object(get_post_type())->labels; 
+		    _e( $labels->name, 'kells' );
+		?>
+		</h1>
+	</header>
+<?php if ( have_posts() ) : ?>
 	<div class="contenido">
 		<div class="contenido-interno">
 			<div class="trabajos-carrousel">

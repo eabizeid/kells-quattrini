@@ -14,11 +14,24 @@ get_header(); ?>
 
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'content', get_post_format() ); ?>
-				<?php twentythirteen_post_nav(); ?>
-				<?php  comments_template(); ?>
-
+			<div class="contenido">
+			<div class="contenido-interno">
+			<div class="prensa-ver anterior"><?php
+			echo previous_post_link('%link', __('Anterior','kells'))?></div>
+			<div class="prensa-central">
+				<div class="prensa-detalle-fecha"><strong class="prensa-fecha"><?php echo the_date('d.m.Y')?></strong></div>
+				<div class="prensa-detalle-titulo"><?php echo the_title();?></div>
+				<div class="prensa-detalle-texto">
+					<?php echo the_content();?>
+				</div>
+			</div>
+			<div class="prensa-ver siguiente">
+			  <?php
+			  echo next_post_link('%link', __('Siguiente','kells'))?>
+			 </div>
+			</div>
+			</div>
+			
 			<?php endwhile; ?>
 
 		</div><!-- #content -->

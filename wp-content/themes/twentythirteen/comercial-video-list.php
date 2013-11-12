@@ -6,12 +6,16 @@
 <script type="text/javascript">
 
 </script>
-<?php if ( have_posts() ) : ?>
 	<header class="titulo">
 		<h1 class="titulo-interno">
-		      <?php _e( $title, 'kells' );?>
+		       <?php
+				 $labels =  get_post_type_object(get_post_type())->labels; 
+				 _e( $labels->name, 'kells' );
+			?>
 		</h1>
 	</header><!-- .archive-header -->
+<?php if ( have_posts() ) : ?>
+<?php $posts_count = wp_count_posts(get_post_type()); ?>
 	<div class="contenido">
 		<div class="contenido-interno">
 			<div class="trabajos">

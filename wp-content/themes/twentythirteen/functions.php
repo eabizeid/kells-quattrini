@@ -581,12 +581,12 @@ function create_post_type() {
 	register_post_type( 'nota_prensa',
 		array(
 			'labels' => array(
-				'name' => __( 'Notas Prensa' ),
-				'singular_name' => __( 'Nota Prensa' )
+				'name' => __( 'Prensa' ),
+				'singular_name' => __( 'Prensa/Nota' )
 			),
 		'public' => true,
 		'has_archive' => true,
-	    'supports' => array( 'title', 'editor', 'comments',  'excerpt', 'thumbnail' )
+	    'supports' => array( 'title', 'editor')
 		)
 	);
 	

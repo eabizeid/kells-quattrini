@@ -21,8 +21,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-			<?php getTemplatePart('documental-ficcion-lista-template','none',array('title'=>'Ficcion')) ?>
-		</div>
+			<?php get_template_part('documental-ficcion-lista-template','none'); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 

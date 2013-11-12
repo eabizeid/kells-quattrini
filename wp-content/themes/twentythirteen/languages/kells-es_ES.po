@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kells\n"
-"POT-Creation-Date: 2013-11-12 11:14-0300\n"
-"PO-Revision-Date: 2013-11-12 11:14-0300\n"
+"POT-Creation-Date: 2013-11-12 11:41-0300\n"
+"PO-Revision-Date: 2013-11-12 12:09-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
-"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: C:\\Users\\gaston\\workspace\\php\\turco\\kells-"
@@ -17,75 +17,75 @@ msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/404.php:16
 msgid "Not found"
-msgstr ""
+msgstr "No Encontrado"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/404.php:21
 msgid "This is somewhat embarrassing, isn&rsquo;t it?"
-msgstr ""
+msgstr "Esto es algo embarazoso, no es asi?"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/404.php:22
 msgid "It looks like nothing was found at this location. Maybe try a search?"
-msgstr ""
+msgstr "Parece que naa ha sido encontrado para esta direccion."
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-nota_prensa.php:49
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comercial-video-list.php:34
 msgid "Ver más"
-msgstr "See More"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive.php:29
 #, php-format
 msgid "Daily Archives: %s"
-msgstr ""
+msgstr "Archivos Diarios: %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive.php:31
 #, php-format
 msgid "Monthly Archives: %s"
-msgstr ""
+msgstr "Archivos Mensuales: %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive.php:33
 #, php-format
 msgid "Yearly Archives: %s"
-msgstr ""
+msgstr "Archivos Anuales: %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive.php:35
 msgid "Archives"
-msgstr ""
+msgstr "Archivos"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/author-bio.php:16
 #, php-format
 msgid "About %s"
-msgstr ""
+msgstr "Sobre %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/author-bio.php:20
 #, php-format
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Ver todos los posts por %s <span class=\"meta-nav\">&rarr;</span>"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/author.php:30
 #, php-format
 msgid "All posts by %s"
-msgstr ""
+msgstr "Todos los post de %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/category.php:19
 #, php-format
 msgid "Category Archives: %s"
-msgstr ""
+msgstr "Archivos de Categoria: %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comments.php:45
 msgid "Comment navigation"
-msgstr ""
+msgstr "Navegacion  de Comentarios"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comments.php:46
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "&larr; Comentarios Anteriores"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comments.php:47
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Comentarios Recientes &rarr;"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comments.php:52
 msgid "Comments are closed."
-msgstr ""
+msgstr "Los Comentarios estan cerrados"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/contact-page.php:25
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-aside.php:20
@@ -104,7 +104,7 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/page.php:39
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/quien-soy-page.php:25
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-aside.php:13
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-audio.php:24
@@ -117,7 +117,7 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-video.php:23
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content.php:39
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Continuar leyendo <span class=\"meta-nav\">&rarr;</span>"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-aside.php:14
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-audio.php:25
@@ -133,7 +133,7 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/image.php:70
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/page.php:35
 msgid "Pages:"
-msgstr ""
+msgstr "Paginas"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-documental-ficcion.php:47
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-gallery.php:36
@@ -142,7 +142,7 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-video.php:32
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content.php:47
 msgid "Leave a comment"
-msgstr ""
+msgstr "Deja un Comentario"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-documental-ficcion.php:47
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-gallery.php:36
@@ -151,7 +151,7 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-video.php:32
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content.php:47
 msgid "One comment so far"
-msgstr ""
+msgstr "Un comentario hasta ahora"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-documental-ficcion.php:47
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-gallery.php:36
@@ -161,75 +161,75 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content.php:47
 #, php-format
 msgid "View all % comments"
-msgstr ""
+msgstr "Ver todos los % comentarios"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-none.php:12
 msgid "Nothing Found"
-msgstr ""
+msgstr "Nada encontrado"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-none.php:18
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgstr "Listo para publicar tu primer post? <a href=\"%1$s\">Empeza aqui</a>."
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-none.php:22
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with "
 "different keywords."
-msgstr ""
+msgstr "Lo sentimos pero nada a macheado con sus terminos de busqueda."
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/content-none.php:27
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
-msgstr ""
+msgstr "Parece que no pudimos encontrar lo que estas buscando."
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/footer.php:19
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:53
 msgid "Contacto"
-msgstr "Contact"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:95
 msgid "Navigation Menu"
-msgstr ""
+msgstr "Menu de Navegacion"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:214
 #, php-format
 msgid "Page %s"
-msgstr ""
+msgstr "Pagina %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:229
 msgid "Main Widget Area"
-msgstr ""
+msgstr "Wisget de area principal"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:231
 msgid "Appears in the footer section of the site."
-msgstr ""
+msgstr "Aparece en el pie del sitio."
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:239
 msgid "Secondary Widget Area"
-msgstr ""
+msgstr "Wisget de area secundario"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:241
 msgid "Appears on posts and pages in the sidebar."
-msgstr ""
+msgstr "Aparece en posts y paginas en la barra lateral"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:266
 msgid "Posts navigation"
-msgstr ""
+msgstr "Navegacion de posts"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:270
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Posts anteriores"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:274
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Posts recientes <span class=\"meta-nav\">&rarr;</span>"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:302
 msgid "Post navigation"
-msgstr ""
+msgstr "Nvegacion Posts"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:326
 msgid "Sticky"
@@ -243,64 +243,64 @@ msgstr ""
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:347
 #, php-format
 msgid "View all posts by %s"
-msgstr ""
+msgstr "Ver todos los posts de %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:373
 #, php-format
 msgid "Permalink to %s"
-msgstr ""
+msgstr "Permalink to %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:539
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:50
 msgid "Documentales"
-msgstr "Documentaries"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:540
 msgid "Documental"
-msgstr "Documentary"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:550
 msgid "Ficciones"
-msgstr "Fictions"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:551
 msgid "Ficcion"
-msgstr "Fiction"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:561
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:48
 msgid "Comerciales"
-msgstr "Publicities"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:562
 msgid "Comercial"
-msgstr "Publicity"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:572
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:49
 msgid "Videos Musicales"
-msgstr "Musical Videos"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:573
 msgid "Video Musical"
-msgstr "Musical Video"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:584
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:52
 msgid "Prensa"
-msgstr "Press"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:585
 msgid "Prensa/Nota"
-msgstr "Press/Note"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:47
 msgid "Ficci&oacute;n"
-msgstr "Fiction"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:51
 msgid "Qui&eacute;n Soy"
-msgstr "Who I am?"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/image.php:22
 #, php-format
@@ -309,41 +309,44 @@ msgid ""
 "datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Return to %4$s\" "
 "rel=\"gallery\">%5$s</a></span>"
 msgstr ""
+"<span class=\"attachment-meta\">Publicado en<time class=\"entry-date\" "
+"datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Volver a %4$s\" "
+"rel=\"gallery\">%5$s</a></span>"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/image.php:39
 msgid "Full resolution"
-msgstr ""
+msgstr "Resolucion Completa"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/image.php:51
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr ""
+msgstr "<span class=\"meta-nav\">&larr;</span> Previo"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/image.php:52
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Siguiente <span class=\"meta-nav\">&rarr;</span>"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/search.php:18
 #, php-format
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Resultados encontrados para: %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-nota_prensa.php:20
 msgid "Anterior"
-msgstr "Previous"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-nota_prensa.php:30
 msgid "Siguiente"
-msgstr "Next"
+msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/tag.php:21
 #, php-format
 msgid "Tag Archives: %s"
-msgstr ""
+msgstr "Tag de Archivos: %s"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/taxonomy-post_format.php:23
 #, php-format
 msgid "%s Archives"
-msgstr ""
+msgstr "%s Archivos"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/inc/back-compat.php:38
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/inc/back-compat.php:50
@@ -353,9 +356,3 @@ msgid ""
 "Twenty Thirteen requires at least WordPress version 3.6. You are running "
 "version %s. Please upgrade and try again."
 msgstr ""
-
-#~ msgid "Notas Prensa"
-#~ msgstr "Press Notes"
-
-#~ msgid "Nota Prensa"
-#~ msgstr "Press Note"

@@ -17,35 +17,39 @@
  * @since Twenty Thirteen 1.0
  */
 
-get_header(); ?>
+get_header();
+?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-
-		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
-				<h1 class="archive-title"><?php
-					if ( is_day() ) :
-						printf( __( 'Daily Archives: %s', 'twentythirteen' ), get_the_date() );
-					elseif ( is_month() ) :
-						printf( __( 'Monthly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentythirteen' ) ) );
-					elseif ( is_year() ) :
-						printf( __( 'Yearly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentythirteen' ) ) );
-					else :
-						_e( 'Archives', 'twentythirteen' );
-					endif;
-				?></h1>
+			<header class="titulo prensa">
+				<h1 class="titulo-interno">
+				      <?php
+				      $labels =  get_post_type_object(get_post_type())->labels; 
+				      _e( $labels->name, 'kells' );?>
+				</h1>
 			</header><!-- .archive-header -->
-
-			<?php /* The loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php echo 'aca va el contenido que queremos' ?>
-			<?php endwhile; ?>
-
-			<?php twentythirteen_paging_nav(); ?>
-
-		<?php else : ?>
-			<?php get_template_part( 'content', 'none' ); ?>
+		<?php if ( have_posts() ) : ?>
+		<?php $posts_count = wp_count_posts(get_post_type()); ?>
+			<div class="contenido">
+				<div class="contenido-interno">
+					<div class="prensa">
+						<ul>
+						<?php while ( have_posts() ) : the_post(); ?>
+								<li>
+									<a href="<?php echo the_permalink() ?>">
+										<strong class="prensa-fecha"><?php echo the_time('d.m.Y')?></strong><br/><br/>
+                    					<?php echo the_title()?>
+                    				</a>
+		                		</li>
+						<?php endwhile; ?>
+						</ul>
+					</div>
+					<?php if(!isset($_REQUEST['show_all']) && $posts_count->publish > COMERCIALES_VIDEOS_PAGE_SIZE ) : ?>
+					<div class="ver-mas"><a href="?show_all"><?php echo __('Ver más')?></a></div>
+					<?php endif;?>
+				</div>
+			</div>
 		<?php endif; ?>
 
 		</div><!-- #content -->
