@@ -2,8 +2,6 @@
 
 	wp_enqueue_script( 'globals', get_template_directory_uri() . '/js/globals.js');
 	wp_enqueue_style('skin',get_template_directory_uri().'/css/skin.css');
-	
-
 ?>
 <script type="text/javascript">
 
