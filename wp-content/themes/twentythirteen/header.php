@@ -50,9 +50,9 @@
 		            <li><a href="<?php echo get_post_type_archive_link('comercial'); ?>"><?php echo __('Comerciales','kells')?></a></li>
 		            <li><a href="<?php echo get_post_type_archive_link('video_musical'); ?>"><?php echo __('Videos Musicales','kells')?></a></li>
 		            <li><a href="<?php echo get_post_type_archive_link('documental'); ?>"><?php echo __('Documentales','kells')?></a></li>
-		            <li><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php echo __('Qui&eacute;n Soy','kells')?></a></li>
+		            <li><a href="<?php echo get_permalink( get_page_by_path('quien-soy')); ?>"><?php echo __('Qui&eacute;n Soy','kells')?></a></li>
 		            <li><a href="<?php echo get_post_type_archive_link('nota_prensa'); ?>"><?php echo __('Prensa','kells')?></a></li>
-		            <li><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php echo __('Contacto','kells')?></a></li>
+		            <li><a href="<?php echo get_permalink( get_page_by_path( 'contacto' )); ?>"><?php echo __('Contacto','kells')?></a></li>
 		        </ul>
 		    </div>
 		</div>
