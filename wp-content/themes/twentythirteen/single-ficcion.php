@@ -12,7 +12,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<div class="titulo">
-					<div class="titulo-interno"><a href="/ficcion">Ficción</a></div>
+					<div class="titulo-interno"><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php _e('Ficción','kells')?></a> / <?php _e('Trabajo','kells')?></a></div>
 				</div>
 				<div class="trabajo">
 					<div class="trabajo-interno">
@@ -21,7 +21,7 @@ get_header(); ?>
         				<div class="trabajo-texto">
 							<?php the_content(); ?>
 						</div>
-      					<div class="volver"><a href="/ficcion">Volver</a></div>
+      					<div class="volver"><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php _e('Volver','kells')?></a></div>
       				</div>
       			</div>
 			<?php endwhile; ?>

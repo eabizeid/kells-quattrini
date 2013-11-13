@@ -9,8 +9,7 @@
 	<header class="titulo">
 		<h1 class="titulo-interno">
 		       <?php
-				 $labels =  get_post_type_object(get_post_type())->labels; 
-				 _e( $labels->name, 'kells' );
+				 _e( $title, 'kells' );
 			?>
 		</h1>
 	</header><!-- .archive-header -->

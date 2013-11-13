@@ -25,8 +25,7 @@ get_header();
 			<header class="titulo prensa">
 				<h1 class="titulo-interno">
 				      <?php
-				      $labels =  get_post_type_object(get_post_type())->labels; 
-				      _e( $labels->name, 'kells' );?>
+				      _e( 'Prensa', 'kells' );?>
 				</h1>
 			</header><!-- .archive-header -->
 		<?php if ( have_posts() ) : ?>

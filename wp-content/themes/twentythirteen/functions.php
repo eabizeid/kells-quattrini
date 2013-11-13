@@ -613,13 +613,15 @@ function get_posts_for_index_page($post_type,$posts_per_page=12){
 }
    
 /**
- * Sobreescribimos la query the busqueda solo para los archive
+ * Sobreescribimos la query the busqueda para los archive y otra para la home
  */
-add_action( 'pre_get_posts', 'custom_get_posts',1);
-function custom_get_posts($query){
+add_action( 'pre_get_posts', 'archive_get_posts',1);
+add_action( 'pre_get_posts', 'home_get_posts',1);
+function archive_get_posts($query){
 	if(!$query->is_archive() || ($query->is_archive() && is_admin())){
 		return ;
 	}
+	
 	
 	$query->set('meta_key','mostrar_en_carrusel');
 	$query->set('orderby','post_date');
@@ -639,6 +641,28 @@ function custom_get_posts($query){
 	   ));
 	}
 }
+
+function home_get_posts($query){
+	if(!is_home()){
+		return ;
+	}
+
+
+	$query->set('post_type',array('documental','ficcion','video_musical','comercial'));
+	$query->set('meta_key','mostrar_en_home');
+	$query->set('orderby','post_date');
+	$query->set('order','ASC');
+	$query->set('nopaging',true);
+	$query->set('meta_query',array(
+				array(
+		           'key' => 'mostrar_en_home',
+		           'value' => true,
+		           'compare' => '=',
+				)
+			));
+	
+}
+
 
 function getTemplatePart($slug = null, $name = null, array $params = array()) {
 	global $posts, $post, $wp_did_header, $wp_query, $wp_rewrite, $wpdb, $wp_version, $wp, $id, $comment, $user_ID;
@@ -665,6 +689,7 @@ function wp_setup_theme_hook() {
 		add_theme_support( 'post-thumbnails' );
 		add_image_size( 'documetal_ficcion_thumb', 290, 414, false);
 		add_image_size( 'comercial_video_thumb', 300, 169, false);
+		add_image_size( 'home_thumb', 860, 430, false);
 	}
 	
 	define('COMERCIALES_VIDEOS_PAGE_SIZE',12);

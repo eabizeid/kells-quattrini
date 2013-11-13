@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kells\n"
-"POT-Creation-Date: 2013-11-12 11:14-0300\n"
-"PO-Revision-Date: 2013-11-12 11:14-0300\n"
+"POT-Creation-Date: 2013-11-12 21:36-0300\n"
+"PO-Revision-Date: 2013-11-12 21:37-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -27,10 +27,41 @@ msgstr ""
 msgid "It looks like nothing was found at this location. Maybe try a search?"
 msgstr ""
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-nota_prensa.php:49
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comercial-video-list.php:34
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-comercial.php:24
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:561
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:49
+msgid "Comerciales"
+msgstr "Publicities"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-documental.php:24
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:539
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:51
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-documental.php:15
+msgid "Documentales"
+msgstr "Documentaries"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-ficcion.php:24
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:550
+msgid "Ficciones"
+msgstr "Fictions"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-nota_prensa.php:28
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:584
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:53
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:64
+msgid "Prensa"
+msgstr "Press"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-nota_prensa.php:48
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/comercial-video-list.php:33
 msgid "Ver más"
 msgstr "See More"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive-video_musical.php:24
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:572
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:50
+msgid "Videos Musicales"
+msgstr "Musical Videos"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/archive.php:29
 #, php-format
@@ -186,7 +217,7 @@ msgid ""
 msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/footer.php:19
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:53
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:54
 msgid "Contacto"
 msgstr "Contact"
 
@@ -250,55 +281,32 @@ msgstr ""
 msgid "Permalink to %s"
 msgstr ""
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:539
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:50
-msgid "Documentales"
-msgstr "Documentaries"
-
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:540
 msgid "Documental"
 msgstr "Documentary"
-
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:550
-msgid "Ficciones"
-msgstr "Fictions"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:551
 msgid "Ficcion"
 msgstr "Fiction"
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:561
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:48
-msgid "Comerciales"
-msgstr "Publicities"
-
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:562
 msgid "Comercial"
 msgstr "Publicity"
-
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:572
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:49
-msgid "Videos Musicales"
-msgstr "Musical Videos"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:573
 msgid "Video Musical"
 msgstr "Musical Video"
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:584
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:52
-msgid "Prensa"
-msgstr "Press"
-
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/functions.php:585
 msgid "Prensa/Nota"
 msgstr "Press/Note"
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:47
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:48
 msgid "Ficci&oacute;n"
 msgstr "Fiction"
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:51
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:52
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:60
 msgid "Qui&eacute;n Soy"
 msgstr "Who I am?"
 
@@ -322,10 +330,34 @@ msgstr ""
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:61
+msgid "ddp"
+msgstr "Director y productor cinemato"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:65
+msgid "art&iacute;culos y notas"
+msgstr "Articles and notes"
+
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/search.php:18
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-comercial.php:15
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-documental.php:15
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-ficcion.php:15
+msgid "Trabajo"
+msgstr "Work"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-comercial.php:24
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-documental.php:24
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-ficcion.php:24
+msgid "Volver"
+msgstr "Go Back"
+
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-ficcion.php:15
+msgid "Ficción"
+msgstr "Fiction"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/single-nota_prensa.php:20
 msgid "Anterior"
@@ -353,6 +385,12 @@ msgid ""
 "Twenty Thirteen requires at least WordPress version 3.6. You are running "
 "version %s. Please upgrade and try again."
 msgstr ""
+
+#~ msgid "Director y productor cinematogr&aacute;fico"
+#~ msgstr "Director and film producer"
+
+#~ msgid "Quién soy"
+#~ msgstr "Who am I"
 
 #~ msgid "Notas Prensa"
 #~ msgstr "Press Notes"

@@ -21,7 +21,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-			<?php get_template_part('comercial-video-list','none'); ?>
+			<?php getTemplatePart('comercial-video-list','none',array('title'=>__('Comerciales','kells'))); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
