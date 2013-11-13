@@ -39,7 +39,8 @@
 				<div class="encabezado-idioma">
 					<?php the_widget('qTranslateWidget', array('hide-title'=>true, 'type'=>'text')); ?>
 				</div>
-		        <a href="/" class="encabezado-logo"></a>
+				<a href="<?php echo get_home_url()?>" class="encabezado-logo">
+		        </a>
 		    </div>
 		</div>
 		<div class="menu">

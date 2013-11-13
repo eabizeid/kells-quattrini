@@ -697,6 +697,7 @@ function wp_setup_theme_hook() {
 }
 add_action('after_setup_theme', 'wp_setup_theme_hook');
 
-add_filter('post_type_link',     'qtrans_convertURL');
-add_filter('post_type_archive_link',     'qtrans_convertURL');
+add_filter('post_type_link','qtrans_convertURL');
+add_filter('post_type_archive_link','qtrans_convertURL');
+add_filter('home_url','qtrans_convertURL');
 	
