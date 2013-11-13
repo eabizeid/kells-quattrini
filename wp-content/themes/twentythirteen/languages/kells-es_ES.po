@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kells\n"
-"POT-Creation-Date: 2013-11-12 21:27-0300\n"
-"PO-Revision-Date: 2013-11-12 21:29-0300\n"
+"POT-Creation-Date: 2013-11-12 21:56-0300\n"
+"PO-Revision-Date: 2013-11-12 21:56-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -302,10 +302,12 @@ msgid "Prensa/Nota"
 msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:48
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:65
 msgid "Ficci&oacute;n"
 msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:52
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:60
 msgid "Qui&eacute;n Soy"
 msgstr ""
 
@@ -332,17 +334,9 @@ msgstr "<span class=\"meta-nav\">&larr;</span> Previo"
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Siguiente <span class=\"meta-nav\">&rarr;</span>"
 
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:60
-msgid "Quién soy"
-msgstr ""
-
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:61
-msgid "Director y productor cinematogr&aacute;fico"
+msgid "Director y productor cinematografico"
 msgstr ""
-
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:65
-msgid "articulos_notas"
-msgstr "Articulos Notas"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/search.php:18
 #, php-format

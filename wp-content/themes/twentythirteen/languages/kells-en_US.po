@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kells\n"
-"POT-Creation-Date: 2013-11-12 21:36-0300\n"
-"PO-Revision-Date: 2013-11-12 21:37-0300\n"
+"POT-Creation-Date: 2013-11-12 21:56-0300\n"
+"PO-Revision-Date: 2013-11-12 21:57-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -302,6 +302,7 @@ msgid "Prensa/Nota"
 msgstr "Press/Note"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/header.php:48
+#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:65
 msgid "Ficci&oacute;n"
 msgstr "Fiction"
 
@@ -331,12 +332,8 @@ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:61
-msgid "ddp"
-msgstr "Director y productor cinemato"
-
-#: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/index.php:65
-msgid "art&iacute;culos y notas"
-msgstr "Articles and notes"
+msgid "Director y productor cinematografico"
+msgstr "                    Director and film producer"
 
 #: C:\Users\gaston\workspace\php\turco\kells-quattrini\wp-content\themes\twentythirteen/search.php:18
 #, php-format
@@ -386,8 +383,14 @@ msgid ""
 "version %s. Please upgrade and try again."
 msgstr ""
 
-#~ msgid "Director y productor cinematogr&aacute;fico"
-#~ msgstr "Director and film producer"
+#~ msgid "aaa"
+#~ msgstr "bb"
+
+#~ msgid "articulos notas"
+#~ msgstr "Articles and notes"
+
+#~ msgid "ddp"
+#~ msgstr "Director y productor cinemato"
 
 #~ msgid "Quién soy"
 #~ msgstr "Who am I"

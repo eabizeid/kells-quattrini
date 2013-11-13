@@ -58,11 +58,11 @@ get_header(); ?>
 					<div class="home-separador">
 			        	<div class="home-quien-soy">
 			            	<div class="home-quien-soy-titulo"><a href="quien-soy.php"><?php _e('Qui&eacute;n Soy','kells')?></a></div>
-			            	<div class="home-quien-soy-bajada"><a href="quien-soy.php"><?php _e('ddp','kells')?></a></div>
+			            	<div class="home-quien-soy-bajada"><a href="quien-soy.php"><?php _e('Director y productor cinematografico','kells')?></a></div>
 			            </div>
 			            <div class="home-prensa">
 			            	<div class="home-prensa-titulo"><a href="<?php echo get_post_type_archive_link('nota_prensa'); ?>"><?php _e('Prensa','kells')?></a></div>
-			            	<div class="home-prensa-bajada"><a href="<?php echo get_post_type_archive_link('nota_prensa'); ?>"><?php _e('art&iacute;culos y notas','kells')?></a></div>
+			            	<div class="home-prensa-bajada"><a href="<?php echo get_post_type_archive_link('nota_prensa'); ?>"><?php echo __('Ficci&oacute;n','kells')?></a></div>
 			            </div>
 			        </div>
 			    </div>
