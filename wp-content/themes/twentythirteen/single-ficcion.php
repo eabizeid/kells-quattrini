@@ -12,7 +12,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<div class="titulo">
-					<div class="titulo-interno"><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php _e('Ficción','kells')?></a> / <?php _e('Trabajo','kells')?></a></div>
+					<div class="titulo-interno"><a href="<?php echo get_post_type_archive_link('ficcion'); ?>"><?php _e('Ficcion','kells')?></a> / <?php _e('Trabajo','kells')?></a></div>
 				</div>
 				<div class="trabajo">
 					<div class="trabajo-interno">
