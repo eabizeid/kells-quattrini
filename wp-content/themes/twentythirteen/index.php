@@ -40,7 +40,7 @@ get_header(); ?>
 			        	    	$labels =  get_post_type_object(get_post_type())->labels; 
 		    				?>
 			                <li>
-			                    <a href="trabajos-detalle.php">
+			                    <a href="<?php echo the_permalink() ?>">
 			                   		<?php if ( has_post_thumbnail()) : ?>     
 			                    		<?php the_post_thumbnail('home_thumb'); ?>
 			                    	<?php endif?>
