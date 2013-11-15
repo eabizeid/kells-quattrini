@@ -57,8 +57,8 @@ get_header(); ?>
 				<div class="contenido-interno">
 					<div class="home-separador">
 			        	<div class="home-quien-soy">
-			            	<div class="home-quien-soy-titulo"><a href="quien-soy.php"><?php _e('Qui&eacute;n Soy','kells')?></a></div>
-			            	<div class="home-quien-soy-bajada"><a href="quien-soy.php"><?php _e('Director y productor cinematogr&aacute;fico','kells')?></a></div>
+			            	<div class="home-quien-soy-titulo"><a href="<?php echo get_permalink( get_page_by_path('quien-soy')); ?>"><?php _e('Qui&eacute;n Soy','kells')?></a></div>
+			            	<div class="home-quien-soy-bajada"><a href="<?php echo get_permalink( get_page_by_path('quien-soy')); ?>"><?php _e('Director y productor cinematogr&aacute;fico','kells')?></a></div>
 			            </div>
 			            <div class="home-prensa">
 			            	<div class="home-prensa-titulo"><a href="<?php echo get_post_type_archive_link('nota_prensa'); ?>"><?php _e('Prensa','kells')?></a></div>
