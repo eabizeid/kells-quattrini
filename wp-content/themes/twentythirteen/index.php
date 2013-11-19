@@ -41,10 +41,16 @@ get_header(); ?>
 		    				?>
 			                <li>
 			                    <a href="<?php echo the_permalink() ?>">
-			                   		<?php if ( has_post_thumbnail()) : ?>     
-			                    		<?php the_post_thumbnail('home_thumb'); ?>
-			                    	<?php endif?>
-			                        <span class="flex-caption"><span><?php _e( $labels->name, 'kells' );?></span><br /><?php the_title() ?></span>
+			                   		     
+			                   		<?php 
+			                   		$attachment_id = get_field('imagen_home');
+			                   		$image = wp_get_attachment_image_src( $attachment_id, 'home_thumb' );
+// url = $image[0];
+// width = $image[1];
+// height = $image[2];
+?>
+<img src="<?php echo $image[0]; ?>" />
+			                    	<span class="flex-caption"><span><?php _e( $labels->name, 'kells' );?></span><br /><?php the_title() ?></span>
 			                    </a>
 			                </li>
 			                <?php endwhile;?>
