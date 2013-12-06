@@ -700,4 +700,12 @@ add_action('after_setup_theme', 'wp_setup_theme_hook');
 add_filter('post_type_link','qtrans_convertURL');
 add_filter('post_type_archive_link','qtrans_convertURL');
 add_filter('home_url','qtrans_convertURL');
+
+// Runs before the posts are fetched
+add_filter( 'pre_get_posts' , 'my_kongo_order' );
+// Function accepting current query
+function my_kongo_order( $query ) {
+
+	$query->set( 'order' , 'desc' );
+}
 	
